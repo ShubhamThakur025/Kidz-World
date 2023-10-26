@@ -123,3 +123,76 @@ footer{
     width: 1.5vw;
     padding: 0.1vw;
 }
+
+@media (orientation:portrait){
+    .top img{
+        width: 100vw;
+        height: 30vh;
+    }
+    .title-text h1{
+        font-size: 9vw;
+    }
+    .sub-title-text{
+        margin-top: 3vw;
+    }
+    .sub-title-text p{
+        font-size: 6vw;
+    }
+    .BookItems>img, .game>img, .goodieItems>img{
+        width: 60vw;
+        margin-top: 13vw;
+    }
+    .shop-items{
+        display: block;
+        max-width: fit-content;
+        margin: auto;
+    }
+    .name{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .cost{
+        font-size: 6vw;
+    }
+    .desc{
+        font-size: 5vw;
+    }
+    .head{
+        font-size: 8vw;
+        text-align: center;
+    }
+    .books, .games, .goddies{
+        margin-top: 15vw;
+    }
+    .add img{
+        width: 6vw;
+    }
+    .add{
+        font-size: 4vw;
+    }
+    
+    .author p{
+        font-size: 6vw;
+        margin: 1vw;
+    }
+    .author img{
+        width: 18vw;
+        height: 18vw;
+    }
+    .logo img{
+        width: 40vw;
+    }
+    .cart-items img{
+        width: 8vw;
+    }
+    .cart-items{
+        font-size: 5vw;
+    }
+    .numberofItems{
+        display: block;
+        margin-left: 4vw;
+    }
+    #amt{
+        text-align: center;
+    }
+}

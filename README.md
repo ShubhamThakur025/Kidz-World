@@ -1,1 +1,2 @@
-# kidz-world-html-boilerplate
+# Kidz-World
+#### Shubham Thakur

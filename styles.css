@@ -103,9 +103,11 @@ footer{
 .transaction{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.transaction:hover{
+    cursor: pointer;
 }
 .cost{
     font-weight: bold;

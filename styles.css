@@ -21,6 +21,9 @@ nav{
 #heart{
     color: red;
 }
+#cart:hover{
+    cursor: pointer;
+}
 .top{
     position: relative;
 }
